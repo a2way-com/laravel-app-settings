@@ -1,0 +1,13 @@
+{
+    "name": "a2way/laravel-app-settings",
+    "description": "Save data in a table called \"app_settings\" and retrieve them.",
+    "authors": [
+        {
+            "name": "Supun Budhajeewa",
+            "email": "budhajeewa@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "5.*"
+    }
+}
