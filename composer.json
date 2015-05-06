@@ -9,5 +9,10 @@
     ],
     "require": {
         "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "A2Way\\LaravelAppSettings\\":"src/"
+        }
     }
 }
