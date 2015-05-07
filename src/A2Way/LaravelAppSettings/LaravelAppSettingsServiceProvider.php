@@ -12,7 +12,7 @@ class LaravelAppSettingsServiceProvider extends \Illuminate\Support\ServiceProvi
 
 	private function registerPublishes ()
 	{
-		$this -> publishes ( [__DIR__ . '/../database/migrations' => $this -> app -> databasePath () . '/migrations' ] ) ;
+		$this -> publishes ( [__DIR__ . '/../../../database/migrations' => $this -> app -> databasePath () . '/migrations' ] ) ;
 	}
 
 }
