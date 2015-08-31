@@ -16,6 +16,18 @@ class AppSettings
 		}
 	}
 
+	public static function only (Array $keys)
+	{
+		$data=[];
+
+		foreach($keys as $key)
+		{
+			$data[$key] = self::get($key);
+		}
+
+		return $data;
+	}
+
 	public static function set ( $key , $value )
 	{
 		$appSetting ;
